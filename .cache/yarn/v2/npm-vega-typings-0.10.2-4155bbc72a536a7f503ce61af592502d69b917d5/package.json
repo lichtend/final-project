@@ -1,0 +1,24 @@
+{
+  "name": "vega-typings",
+  "version": "0.10.2",
+  "description": "Typings for Vega.",
+  "types": "types",
+  "repository": "vega/vega",
+  "author": "Dominik Moritz <domoritz@gmail.com>",
+  "keywords": [
+    "vega",
+    "typescript",
+    "typings"
+  ],
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "format": "prettier $([ \"$CI\" = true ] && echo --check || echo --write) './**/*.{ts,tsx,js,json,css}'",
+    "build-tests": "./build-tests.sh",
+    "pretest": "yarn build-tests",
+    "test": "yarn format && dtslint ."
+  },
+  "dependencies": {
+    "vega-util": "^1.11.0"
+  },
+  "gitHead": "e9ce2c4394348a304ac8c00c1c36efdf66abbb46"
+}
