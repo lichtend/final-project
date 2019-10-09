@@ -17,7 +17,7 @@ This repository contains a template for final projects.
 - Clone the repo using a shell (below) or [GitHub Desktop](https://desktop.github.com)
 
 ```sh
-git clone https://github.com/py4ds/final-project
+git clone https://github.com/lichtend/final-project
 cd final-project
 jupyter lab
 ```
